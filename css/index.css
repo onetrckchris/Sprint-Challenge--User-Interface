@@ -56,6 +56,25 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.jumbo-img {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 50px 40px 0px;
+}
+
+nav a {
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
