@@ -109,6 +109,7 @@ nav {
 
 nav a {
     align-self: flex-end;
+    font-weight: bold;
     margin-right: 10px;
     font-size: 14px;
     text-decoration: none;
@@ -144,23 +145,48 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content-home {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content-about {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.middle-content .boxes {
+.middle-content-card {
+    width: 47%;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-card p, .middle-content-card img {
+    margin-bottom: 15px;
+}
+
+.middle-content-home .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content-card span {
+    border: 2px solid black;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-content-home .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -171,6 +197,11 @@ p {
     justify-content: center;
 }
 
+.bottom-content-about {
+    margin-bottom: 40px;
+    padding: 0px 25px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -179,6 +210,11 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+header {
+    padding: 15px;
+    border-bottom: 1px dashed black;
 }
 
 .bottom-content .text-container:last-child {
@@ -195,6 +231,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
     padding: 20px 2%;
     font-size: 14px;
 }
