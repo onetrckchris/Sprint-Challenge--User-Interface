@@ -114,6 +114,11 @@ nav a {
     font-size: 14px;
     text-decoration: none;
     color: black;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -205,6 +210,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s all ease;
+}
+
+.middle-content-home .boxes .box:hover {
+    transform: scale(1.35);
 }
 
 .bottom-content-about {
@@ -220,6 +230,10 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.boxes {
+    margin-bottom: 20px;
 }
 
 header {
