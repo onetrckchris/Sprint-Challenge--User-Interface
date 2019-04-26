@@ -150,6 +150,16 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.high-priority {
+    order: -1;
+    width: 96% !important;
+}
+
+.low-priority {
+    order: 1;
+    width: 30% !important;
+}
+
 .middle-content-about {
     margin-bottom: 20px;
     display: flex;
